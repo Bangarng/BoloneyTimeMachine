@@ -1,0 +1,34 @@
+NODEJS
+- Name: Gulp
+- Reason: Used for setting up tasks and makes builds super easy
+
+- Name: Gulp-Watch
+- Reason: Used for monitoring changes in a file
+
+- Name: Cheerio
+- Reason: This is the nodeJS variation of jQuery. Makes modifying HTML files a lot easier
+
+- Name: Browser Sync
+- Reason: To standup localhost at specific path to work with existing paths
+
+- Name: Del
+- Reason: To delete a folder
+
+- Name: gulp-clean-css, gulp-jsonminify, gulp-minify
+- Reason: To minify files
+
+- Name: gulp-strip-comments
+- Reason: Removes comments. used for html
+
+- Name: Node-thumbnail
+- Reason; Experimental. Used to make thumbnails of images
+
+- Name: require-dir
+- Reason: Expansion of gulp. It allows splitting of files.
+
+- Name: Run-sequence
+- Reason: Expansion of gulp. It executes tasks in order.
+
+
+OTHER
+- With WebStorm, can configure gulp to run/debug configurations.

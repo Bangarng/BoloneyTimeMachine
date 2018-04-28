@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!--============GOOGLE FONTS===========-->
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+<title>Header Template</title>
+</head>
+<body>
+<!--===============================Mobile Nav Start===============================-->
+<div id="mobileBanner" class="visible-xs navbar-fixed-top" style="padding-right:5px;>
+	<button class="navbar-toggler visible-xs" type="button" data-toggle="collapse" data-target="#mobileCollapse" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation"> <img id="mobileBtn" src="/pictures/MobileMenuButton.png"/>
+	</button>
+</div>	
+<header class="container">
+<!--This is the Title in Mobile View (BOLONEY TIME MACHINE)-->
+<div id="mobileBoloney" class="navbar-nav visible-xs"><img class="img-fluid" src="/pictures/btm-font-white.png"/></div>
+
+<!--Collapasable Button Menu-->
+<div class="collapse navbar-toggleable-xs hidden-sm hidden-md hidden-lg" id="mobileCollapse">
+    <ul class="list-group">
+		<li class="list-group-item mobileMenu mobileLink" style="text-decoration:underline;">MENU</li>
+		<li class="list-group-item mobileMenu"><a href="http://www.boloneytimemachine.com" class="mobileLink">HOME</a></li>
+		<li class="list-group-item mobileMenu"><a href="/comics-new" class="mobileLink">COMICS</a></li>
+		<li class="list-group-item mobileMenu"><a href="/characters" class="mobileLink">CHARACTERS</a></li>
+		<li class="list-group-item mobileMenu"><a href="/the-funk" class="mobileLink">THE FUNK</a></li>
+		<li class="list-group-item mobileMenu"><a href="/about" class="mobileLink">ABOUT</a></li>
+		<li class="list-group-item mobileMenu">
+			<a href="https://www.facebook.com/boloneytimemachinecomic/" target="_blank" alt="Facebook"><img class="mobileIcon" src="/pictures/media/facebookpng.png"></a> 
+			<a href="https://www.instagram.com/boloneytimemachine/" target="_blank" alt="Instagram"><img class="mobileIcon" src="/pictures/media/instagrampng.png"></a>
+			<a href="https://twitter.com/BTMComic" target="_blank" alt="Twitter"><img class="mobileIcon" src="/pictures/media/twitterpng.png"></a> 
+
+		</li>
+		<li class="list-group-item mobileMenu">	
+			<a href="https://boloneytimemachine.tumblr.com/" target="_blank" alt="Tumblr"><img class="mobileIcon" src="/pictures/media/tumblrpng.png"></a>
+			<a href="https://tapas.io/series/BoloneyTimeMachine" target="_blank" alt="Taptastic"><img class="mobileIcon" src="/pictures/media/taptasticpng.png"></a>
+		</li>
+	</ul>
+</div>
+
+<!--===============================End Mobile Nav===============================-->
+
+<!--===============================Full Nav Start===============================-->
+<div class="navbar navbar-default hidden-xs"> <!--This div makes the buttons work correctly-->
+	<div>
+		<a href="/index.html"><img class="banner" src="/pictures/btmbannerpng.png"/></a>
+			<ul class="nav navbar-nav hidden-xs">
+				<li id="homePage" class="navbar-middle"><a href="http://www.boloneytimemachine.com" class="btn btn-info">HOME</a></li>
+				<li id="comicsPage" class="navbar-middle"><a href="/comics-new" class="btn btn-info">COMICS</a></li>
+				<li id="charactersPage" class="navbar-middle"><a href="/characters" class="btn btn-info">CHARACTERS</a></li>
+				<li id="theFunkPage" class="navbar-middle"><a href="/the-funk" class="btn btn-info">THE FUNK</a></li>
+				<li id="aboutPage" class="navbar-middle"><a href="/about" class="btn btn-info">ABOUT</a></li>
+			</ul>
+	</div>
+</div>
+</header>
+</body>
+</html>

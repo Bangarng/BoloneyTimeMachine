@@ -1,0 +1,26 @@
+{
+  "name": "boloneytimemachine",
+  "version": "1.0.0",
+  "description": "comics",
+  "main": "btmHeadTagContent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "cheerio": "^1.0.0-rc.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-jsonminify": "^1.1.0",
+    "gulp-minify": "^2.1.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-watch": "^5.0.0",
+    "node-thumbnail": "^0.14.0",
+    "require-dir": "^1.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}

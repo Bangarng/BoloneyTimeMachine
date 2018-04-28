@@ -1,0 +1,24 @@
+TODO-FEATURES
+[X] Build Comic page
+[X] Build pagination
+[X] Build randomizer
+[X] Build "last page" && "first page"
+[X] Dynamically allow for comments on the comic pages
+-- I think it works? Need to verify.
+-- However, comments would be lost due to new URLs.
+[X] Associate links to comics from "comics list"
+[X] Disable controls for when on last and first comic
+[X] Add active controls for the current nav item
+[ ] Meta modification
+[ ] Vertical check
+
+[ ] Watch function to synchronize to dist
+[ ] Watch function to synchronize to public
+
+TODO-BUGS
+[ ] Comics bugs with items with a quote in the url
+
+TODO-POSSIBLE
+[ ] Thumbnails
+[X] Strip comments
+

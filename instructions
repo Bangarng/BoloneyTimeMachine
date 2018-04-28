@@ -1,0 +1,28 @@
+To get started, you need NodeJS installed. Some modules may require you to install globally (gulp being one of them).
+
+Once NodeJS is installed, open up command prompt and go to your project directory. From there, you can run one of several
+commands.
+
+EXAMPLES:
+
+gulp main-dev
+gulp main-public
+
+For development purposes, you'll run only "main-dev". You can see all tasks inside the "main-dev" task and looking
+up each individual task.
+
+For production purposes, you'll need to run "main-public" and verify results. If all looks good, you'll run
+"deploy-to-public" (NOT READY YET).
+
+You can run individual tasks as needed. All are available in the tasks folder or in gulpfile.js.
+
+========================================
+To add a new comic, you'll need to go to tasks\comicsJson.js and add a new line under the last comic. From there,
+you'll need to add the comic in the appropriate location under "src\strips". Once completed, you can run "main-dev" to verify.
+
+If you only want to rebuild files, you can manually run "gulp build-comics-json" && "gulp build-pages-comic-list".
+
+Once a new comic is added, it is a good idea to verify that it worked.
+========================================
+To modify templates, you can go to "src\templates" and modify the files there. Each file is separated appropriately,
+such as header, footer, meta, and body. Body files are under body.

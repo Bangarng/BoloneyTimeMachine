@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=3" />
+<!--===============================GOOGLE FONTS=============================================================-->
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+<!--===============================JQUERY.MIN CDN===========================================================-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--===============================RESPOND.MIN CDN FOR INTERNET EXPLORER====================================-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<!--===============================BTM RANDOM BUTTON JS FILE================================================-->
+<script type="text/javascript" src="/assets/btmrandomjs.js"></script>
+<!--===============================BOOTSTRAP CDN COMPILED AND MINIFIED CSS==================================-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--===============================BOOTSTRAP CDN COMPILED AND MINIFIED JS===================================-->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--===============================BTM CSS==================================================================-->
+<link rel="stylesheet" type="text/css" href="/assets/btmcss.css"/>
+<title>Boloney Time Machine</title>
+<!--===============================BTM BROWSER ICON=========================================================-->
+<link rel="icon" href="/pictures/btmfavicon.png">
+<script type="text/javascript"> 
+	$(document).ready(function() {
+	    $('#BTMHeader').load('/btmheader.html', function() {
+	        $('#aboutPage ,#aboutPage > a').addClass('active');
+	    });
+		$("#BTMFooter").load("/btmfooter.html");
+	
+	});
+</script> 
+</head>
+<!--===============================HEADER START=============================================================-->
+<body>
+<div class="wrapper">
+<div id="BTMHeader"></div>
+<!--===============================Content Start===============================-->
+<div class="container content" style="padding: 0px 30px 50px 30px;">
+	<p id="BTM-Title" class="visible-xl visible-lg visible-md visible-sm"><u>Media Info.</u></p>
+	<p id="BTM-Title-Mobile" class="visible-xs"><u>Boloney Time Machine Media Info.</u></p>	
+	<p class="aboutFont" style="text-align:center;"><a href="https://www.facebook.com/BoloneyTimeMachineComic">Facebook</a>
+	<br/>
+	<br/>
+	<a href="https://www.instagram.com/boloneytimemachine">Instagram</a>
+	<br/>
+	<br/>
+	<a href="https://twitter.com/BTMComic">Twitter</a>
+	<br/>
+	<br/>
+	<a href="https://boloneytimemachine.tumblr.com/">Tumblr</a>
+	<br/>
+	<br/>
+	<a href="https://tapas.io/episode/714250">Tapas</a>
+	<br/>
+	<br/>
+	<a href="http://imgur.com/user/MyNameIsDickieStevens">Imgur, Username: MyNameIsDickieStevens</a>
+	<br/>
+	<br/>
+	<a href="https://www.reddit.com/user/MyNamesDickieStevens/">Reddit, Username: MyNamesDickieStevens</a>
+	</p>
+	<img class="character-lineup" src="/pictures/mugshots/btmlineup.png" title="Line Up" width:"80%"/>
+
+</div>	
+<!--===============================FOOTER START=============================================================-->
+<div id="BTMFooter"></div>
+</div>
+</body>
+</html>
+
+

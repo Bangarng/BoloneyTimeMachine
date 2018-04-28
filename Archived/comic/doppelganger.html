@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=3" />
+<title> Boloney Time Machine - Doppelganger</title>
+<meta id="meta" name="author" content="Dickie Stevens, boloneytimemachine.com">
+<meta property="og:url" content="http://www.boloneytimemachine.com/comic/persuasion" />
+<meta property="og:title" content="Am I the chicken or the egg?" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="" />
+<!--===============================GOOGLE FONTS=============================================================-->
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+<!--===============================BOOTSTRAP CDN COMPILED AND MINIFIED CSS==================================-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--===============================BTM CSS==================================================================-->
+<link rel="stylesheet" type="text/css" href="/assets/btmcss.css"/>
+<!--===============================BTM FAVICON=========================================================-->
+<link rel="icon" href="/pictures/btmfavicon.png">
+<!--===============================JQUERY.MIN CDN===========================================================-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--===============================RESPOND.MIN CDN FOR INTERNET EXPLORER====================================-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<!--===============================BTM JS FILE================================================-->
+<script type="text/javascript" src="/assets/btmjs.js"></script>
+
+<!--===============================BOOTSTRAP CDN COMPILED AND MINIFIED JS===================================-->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript"> 
+$(document).ready(function() {
+    $('#BTMHeader').load('/btmheader.html', function() {
+        $('#homePage ,#homePage > a').addClass('active');
+    });
+	$("#BTMFooter").load("/btmfooter.html");
+});
+</script> 
+</head>
+<body>
+<div class="wrapper">
+<div id="BTMHeader"></div> 
+<!--===============================ARROWS===================================================================-->
+<div class="container">
+<div class="nav navbar-nav hidden-xs marginBottom5">
+	<p class="strip-date">New Strip Every OTHER Thursday</p>
+	<!--First Strip Arrow-->
+	<a href="/comic/welcome-aboard"><img class="first-arrow" src="/pictures/arrows/firststriparrow.png" title="Welcome Aboard!"/></a>	
+	<!--LEFT ARROW-->
+	<a href="/comic/high-kick"><img class="arrow" src="/pictures/arrows/leftarrow.png" title="High Kick!"/></a>	
+	<!--RANDOM BUTTON-->	
+	<a onclick="randomComic()"><img class="arrow" src="/pictures/arrows/randombutton.png" title="Random"/></a>
+	<!--RIGHT ARROW-->
+	<a href="/comic/persuasion"><img class="arrow" src="/pictures/arrows/rightarrow.png" title="Persuasion"/></a>	
+</div>
+</div>
+<!--===============================CONTENT START============================================================-->
+<div class="container content hidden-xs">
+	<!--Jam your strip here and then go outside and do stuff-->
+	<img class="img-thumbnail center-block 4-pane-strip comicStrip" src="/strips/third_10/23-CS-4P-Doppelganger.png">
+	<p id="BTM-Comic-Title-Mobile">Doppelganger</p>
+</div>
+<div class="container content visible-xs">
+	<!--Jam your strip here and then go outside and do stuff-->
+	<img class="img-thumbnail center-block comicStrip" src="/strips/third_10/23-CS-4P-Doppelganger.png">
+	<p id="BTM-Comic-Title-Mobile">Doppelganger</p>
+</div>		
+
+<!--===============================ARROWS MOBILE=============================================================-->
+<div class="container">
+<div class="nav navbar-nav visible-xs">
+	<!--First Strip Arrow-->
+	<a href="/comic/welcome-aboard"><img class="mobile-first-arrow" src="/pictures/arrows/firststriparrow.png" title="Welcome Aboard"/></a>	
+	<!--LEFT ARROW-->
+	<a href="/comic/high-kick"><img class="mobileArrow" src="/pictures/arrows/mobileleftarrow.png" title="High Kick!"/></a>	
+	<!--RANDOM BUTTON-->	
+	<a onclick="randomComic()"><img class="mobileArrow" src="/pictures/arrows/randombutton.png" title="Random"/></a>
+	<!--RIGHT ARROW-->
+	<a href="/comic/persuasion"><img class="mobileArrow" src="/pictures/arrows/mobilerightarrow.png" title="Persuasion"/></a>	
+	<p class="strip-date-mobile">New Strip Every OTHER Thursday</p>
+</div>
+</div>
+<div id="disqus_thread" class="container"></div>
+<script>
+/*
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'http://www.boloneytimemachine.com/comic/doppelganger';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = '/comic/doppelganger'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://boloneytimemachine.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                                         
+<!--===============================FOOTER START=============================================================-->
+<div id="BTMFooter"></div>
+</div>
+</body>
+</html>
+
+

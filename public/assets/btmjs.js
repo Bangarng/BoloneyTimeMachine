@@ -1,0 +1,1 @@
+!function(){var a,e=window.location;e.pathname.indexOf("/")>-1&&(a="homePage"),e.pathname.indexOf("/comics-")>-1&&(a="comicsPage"),e.pathname.indexOf("/characters")>-1&&(a="charactersPage"),e.pathname.indexOf("/the-funk")>-1&&(a="theFunkPage"),e.pathname.indexOf("/about")>-1&&(a="aboutPage"),$(function(){$("#"+a).addClass("active")})}();

@@ -1,0 +1,4 @@
+* All static pages are handled by Gulp-build. This allows for templating and removes the need for ajax call to load header/footer.
+* Added .html in the URLS in navigation
+* Comic-new & comic-old is handled by Gulp build-comics-list. This reads the JSON, populates the table, and generates the page.
+* Added back the "Newest on top" && "Oldest on top" on the comic pages.

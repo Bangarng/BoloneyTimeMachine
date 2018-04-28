@@ -1,0 +1,140 @@
+<!DOCTYPE html><html><head>
+	<meta http-equiv="Content-Type" charset="UTF-8" content="text/html" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=3" />
+	<title>Boloney Time Machine</title>
+	<meta id="meta" name="author" content="Dickie Stevens, boloneytimemachine.com">
+	<meta property="og:url" content="http://www.boloneytimemachine.com/comic/common-courtesy" />
+	<meta property="og:title" content="How do you partake?" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="http://boloneytimemachine.com/strips/third_10/thumbnails/26-common-courtesy.png" />
+	<!--
+		04-16-18 KTM: Changed the order. Ideally, you want to load libraries/frameworks first before loading your stuff.
+		This way, your custom/JS stuff will load last but have priority.
+	->
+	<!--===============================JQUERY.MIN CDN===========================================================-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--===============================RESPOND.MIN CDN FOR INTERNET EXPLORER====================================-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<!--===============================BOOTSTRAP CDN COMPILED AND MINIFIED CSS==================================-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--===============================BOOTSTRAP CDN COMPILED AND MINIFIED JS===================================-->
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--===============================GOOGLE FONTS=============================================================-->
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+	<!--===============================BTM CSS==================================================================-->
+	<link rel="stylesheet" type="text/css" href="/assets/btmcss.css?042818"/>
+	<!--===============================BTM FAVICON=========================================================-->
+	<link rel="icon" href="/pictures/btmfavicon.png">
+	<!--===============================BTM JS FILE================================================-->
+	<script type="text/javascript" src="/assets/btmjs.js?042818"></script>
+</head><body><div id="main">
+	<!--===============================Mobile Nav Start===============================-->
+	<div id="mobileBanner" class="visible-xs navbar-fixed-top" style="padding-right:5px;">
+		<button class="navbar-toggler visible-xs" type="button" data-toggle="collapse" data-target="#mobileCollapse" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation"> <img id="mobileBtn" src="/pictures/MobileMenuButton.png"/>
+		</button>
+	</div>
+	<header class="container">
+	<!--This is the Title in Mobile View (BOLONEY TIME MACHINE)-->
+	<div id="mobileBoloney" class="navbar-nav visible-xs"><img class="img-fluid" src="/pictures/btm-font-white.png"/></div>
+
+	<!--Collapasable Button Menu-->
+	<div class="collapse navbar-toggleable-xs hidden-sm hidden-md hidden-lg" id="mobileCollapse">
+	    <ul class="list-group">
+			<li class="list-group-item mobileMenu mobileLink" style="text-decoration:underline;">MENU</li>
+			<li class="list-group-item mobileMenu"><a href="http://www.boloneytimemachine.com" class="mobileLink">HOME</a></li>
+			<li class="list-group-item mobileMenu"><a href="/comics-new" class="mobileLink">COMICS</a></li>
+			<li class="list-group-item mobileMenu"><a href="/characters" class="mobileLink">CHARACTERS</a></li>
+			<li class="list-group-item mobileMenu"><a href="/the-funk" class="mobileLink">THE FUNK</a></li>
+			<li class="list-group-item mobileMenu"><a href="/about" class="mobileLink">ABOUT</a></li>
+			<li class="list-group-item mobileMenu">
+				<a href="https://www.facebook.com/boloneytimemachinecomic/" target="_blank" alt="Facebook"><img class="mobileIcon" src="/pictures/media/facebookpng.png"></a>
+				<a href="https://www.instagram.com/boloneytimemachine/" target="_blank" alt="Instagram"><img class="mobileIcon" src="/pictures/media/instagrampng.png"></a>
+				<a href="https://twitter.com/BTMComic" target="_blank" alt="Twitter"><img class="mobileIcon" src="/pictures/media/twitterpng.png"></a>
+
+			</li>
+			<li class="list-group-item mobileMenu">
+				<a href="https://boloneytimemachine.tumblr.com/" target="_blank" alt="Tumblr"><img class="mobileIcon" src="/pictures/media/tumblrpng.png"></a>
+				<a href="https://tapas.io/series/BoloneyTimeMachine" target="_blank" alt="Taptastic"><img class="mobileIcon" src="/pictures/media/taptasticpng.png"></a>
+			</li>
+		</ul>
+	</div>
+
+	<!--===============================End Mobile Nav===============================-->
+
+	<!--===============================Full Nav Start===============================-->
+	<div class="navbar navbar-default hidden-xs"> <!--This div makes the buttons work correctly-->
+		<div>
+			<a href="/index.html"><img class="banner" src="/pictures/btmbannerpng.png"/></a>
+				<ul class="nav navbar-nav hidden-xs">
+					<!-- Changed URL to index versus hardcoding website-->
+					<li id="homePage" class="navbar-middle"><a href="/index.html" class="btn btn-info">HOME</a></li>
+					<li id="comicsPage" class="navbar-middle"><a href="/comics-new.html" class="btn btn-info">COMICS</a></li>
+					<li id="charactersPage" class="navbar-middle"><a href="/characters.html" class="btn btn-info">CHARACTERS</a></li>
+					<li id="theFunkPage" class="navbar-middle"><a href="/the-funk.html" class="btn btn-info">THE FUNK</a></li>
+					<li id="aboutPage" class="navbar-middle"><a href="/about.html" class="btn btn-info">ABOUT</a></li>
+				</ul>
+		</div>
+	</div>
+
+	</header>
+</div>
+<div class="container content" style="padding: 0px 30px 50px 30px;">
+	<p id="BTM-Title" class="visible-xl visible-lg visible-md visible-sm"><u>ABOUT</u></p>
+	<p id="BTM-Title-Mobile" class="visible-xs"><u>ABOUT</u></p>
+	<img id="bioPicture" class="img-thumbnail" style="float:left;" src="/pictures/bioPicture.jpg">
+	<p class="aboutFont">BOLONEY TIME MACHINE (BTM) FOLLOWS HERO AND SIDEKICK, A PAIR OF SUPERHEROES WHO JUST JOINED THE SOCIETY OF H.A.V.V.O.C. (HEROES, ANTIHEROES, VIGILANTIES, VILLAINS, <b>&</b> OTHER CHARACTERS)
+		AND HAVE THE POTENTIAL TO BE EPIC, BUT HALF<br/> THE DRIVE TO DO IT.
+		<br/>
+		<br/>
+		WHEN NOT DRAWING, STEVENS IS MOST LIKELY DRAFTING WORLD DOMINATION WITH HIS PUP ZOEY (NO NOT REALLY) OR OPENLY EXPRESSING HIS HATRED TOWARD MUSTARD (MOST LIKELY).
+		<br/>
+		<br/>
+		YOU CAN EMAIL DICKIE AT DICKIESTEVENS[AT]BOLONEYTIMEMACHINE.COM.
+	</p>
+
+</div>
+<footer class="footer navbar-fixed-bottom" > 
+	<div class="push hidden-xs"></div>
+	<div class="pushMobile visible-xs"></div>
+	<div class="navbar-inverse" style="padding-bottom:25px;">
+		<div>
+			<ul class="list-inline padding15 hidden-xs">
+				<!--This is the HOME PAGE -->
+				<li class="footer-btn"><a href="http://www.boloneytimemachine.com/">BTM</a></li>
+				<li class="footer-btn"><a href="/comics-new">COMICS</a></li>
+				<li class="footer-btn"><a href="/characters">CHARACTERS</a></li>
+				<li class="footer-btn"><a href="/the-funk">THE FUNK</a></li>
+				<li class="footer-btn"><a href="/about">ABOUT</a></li>
+			</ul>
+		</div>
+		<div class="navbar-text text-center hidden-xs">
+			<a href="https://www.facebook.com/boloneytimemachine/" target="_blank" alt="Facebook"><img class="media_icon" src="/pictures/media/facebookpng.png"></a>
+			<a href="https://www.instagram.com/boloneytimemachine/" target="_blank" alt="Instagram"><img class="media_icon" src="/pictures/media/instagrampng.png"></a>
+			<a href="https://twitter.com/BTMComic" target="_blank" alt="Twitter"><img class="media_icon" src="/pictures/media/twitterpng.png"></a> 
+			<a href="https://boloneytimemachine.tumblr.com/" target="_blank" alt="Tumblr"><img class="media_icon" src="/pictures/media/tumblrpng.png"></a>
+			<a href="https://tapas.io/series/BoloneyTimeMachine" target="_blank" alt="Taptastic"><img class="media_icon" src="/pictures/media/taptasticpng.png"></a>
+			<!--Media Site Arrows-->
+			<table class="center-block" style="width:485px;">
+				<tr>
+					<td><img class="media-arrow-lt pull-left heartbeat" src="/pictures/arrows/media-arrow-left.png" alt="Media Left Arrow"/></td>
+					<td class="heartbeat"><p class="heartbeat">Check me out on Facebook, Instagram, Twitter, Tumblr or Tapas!</p></td>
+					<td><img class="media-arrow-rt pull-right" src="/pictures/arrows/media-arrow-right.png" alt="Media Right Arrow"/></td>
+				</tr>
+			</table>
+			<div>
+			<p class="cc"></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">BOLONEY TIME MACHINE</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="../../BTMCustomSite/Pages/BTMAbout.html" property="cc:attributionName" rel="cc:attributionURL">Dickie Stevens</a> 
+			   is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Site by Dickie Stevens.
+			   <br/><br/><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0; width:120px;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+			</p>
+			</div>
+		</div>
+	<!--===============================Mobile Footer===============================-->
+		<div class="text-center visible-xs footer" style="padding:10px;">
+			<p class="cc" style="font-size:xx-small !important;"></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">BOLONEY TIME MACHINE</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="../../BTMCustomSite/Pages/BTMAbout.html" property="cc:attributionName" rel="cc:attributionURL">Dickie Stevens</a> 
+			   is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Site by Dickie Stevens.
+			   <br/><br/><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0; width:120px;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+			</p>
+		</div>
+	</div>
+</footer>	</body></html>
