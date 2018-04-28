@@ -4,7 +4,7 @@
 
 var COMICS_URL = "\\comics.json";
 var COMICS = [];
-
+//test
 
 function getComicsJson() {
 	/*
